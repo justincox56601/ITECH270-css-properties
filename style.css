@@ -1,9 +1,16 @@
 *{
     /*set universal margin, padding, and font type*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     /*set global style for H1 tags*/
+    text-align: center;
+    font-size: 3rem;
 }
 
 h2{
@@ -24,6 +31,7 @@ a{
 
 body{
     /*set background color for the whole page*/
+    background-color: #f3f3f3;
 }
 
 header{
@@ -32,15 +40,28 @@ header{
     /*change the font color to white*/
     /*change the height of the header*/
     /*center the header content*/
+    background-color: #B76E79;
     
+}
+
+.sub-header{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .container{
     /*set padding for the main content*/
+    padding:2rem 10rem 0rem 10rem;
+}
+
+.highlight{
+    
+    text-decoration: overline;
 }
 
 section{
-    
+    border:1px solid black;
+    margin-bottom: 2rem;
 }
 
 .about{
@@ -64,5 +85,5 @@ section{
 }
 
 .copyright{
-    
+
 }
